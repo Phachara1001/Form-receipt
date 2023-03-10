@@ -1,13 +1,12 @@
 <template>
-    
-    <section class="bg: #EEE9DA dark:bg-gray-900">
     <div class="grid max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12">
         <div class="hidden lg:mt-0 lg:col-span-3 lg:flex">
-            <img src="https://media.discordapp.net/attachments/1033412250230329347/1083400680422772956/1.png" alt="mockup">
+            <img src="https://www.adt.or.th/image/ADT1%20-%201108%20-%200263.jpg" alt="mockup">
         </div> 
         <div class="mr-auto place-self-center lg:col-span-7">
-            <h1 class="max-w-2xl mb-4 text-4xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-2xl dark:text-white">พชร ทัวร์</h1>
-            <p class="max-w-2xl mb-6 font-light text-gray-500 lg:mb-8 md:text-lg lg:text-l dark:text-gray-400">272/9 ถนนเจริญรัฐ ต.กุดป่อง อ.เมือง จ.เลย 42000 โทร : 0629045675</p>
+            <h1 class="max-w-2xl mb-4 text-4xl font-regular tracking-tight leading-none md:text-5xl xl:text-2xl dark:text-white">ศรีดาราทัวร์</h1>
+            <p class="max-w-2xl mb-6 font-light text-gray-500 lg:mb-8 md:text-lg lg:text-l dark:text-gray-400">123 ถ.ชยางถูร ม.19 ต.บุ่ง อ.เมือง จ.อำนาจเจริญ 3700 เลขประจำตัวผู้เสียภาษี 03755520000037 เบอร์มือถือ 0823656514 <br>
+            wwww.facebook.com/sridaratourfanpage </p>
         </div>
         <div class="mr-auto place-self-center lg:col-span-7">
             <h1 class="max-w-2xl mb-1 text-4xl font-regular tracking-tight leading-none md:text-5xl xl:text-2xl dark:text-white">TAT NO. 51/00481</h1>
@@ -59,6 +58,7 @@
         </div>
     </div>
     <br>
+    
     <table class="w-full"> 
 						<thead> 
 							<tr style="background-color: #D6EEEE ;"> 
@@ -67,7 +67,8 @@
 								<th align="right">จำนวน <br> QUANTITY</th> 
 								<th align="right">ราคาต่อหน่วย <br> UNIT PRICE</th> 
                                 <th align="right">ราคารวม <br> TOTAL PRICE</th> 
-							</tr> 
+							</tr>
+                            <hr>
 						</thead> 
 						<tbody> 
 							<tr style="background-color: #EEEEEE ;"> 
@@ -93,33 +94,28 @@
 							</tr>
 						</tbody> 
 					</table>
-        <div class="relative overflow-x-auto">
+    <div class="relative overflow-x-auto">
     <table class="w-full text-sm text-left text-gray-500 dark:text-gray-400">
-        <thead class="text-xs text-gray-700 uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400">
+        <thead class="text-xs text-gray-700 uppercase bg-gray-10 dark:bg-gray-700 dark:text-gray-400">
             <tr>
-                <th scope="col" class="px-6 py-2">             
-                    <p class="max-w-2xl mb-6 font-light text-gray-500 lg:mb-8 md:text-lg lg:text-l dark:text-gray-400 align:left">หมายเหตุ : กรุณาชำระเงินภายในเวลาที่กำหนด นับจากวันที่ท่านได้จอง ถ้าชำระไม่ทันไม่ตรงกำหนดระบบจะทำการตัดที่นั่งโดยอัตโนมัติ</p>
+                <th scope="col" class="px-6 py-2">
+หมายเหตุ : กรุณาชำระเงินภายในเวลาที่กำหนด นับจากวันที่ท่านได้จอง ถ้าชำระไม่ทันไม่ตรงกำหนดระบบจะทำการตัดที่นั่งโดยอัตโนมัติ
+
+
                 </th>
-            <tr>
-                    <td align="right">รวมเงิน&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
-                    <td align="right">283,100.00</td>
-                </tr>
-                <tr>
-                    <td align="right">รวมยอดหลังหักส่วนลด&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
-                    <td align="right">283,100.00</td>
-                </tr>                
-                <tr>
-                    <td align="right">หักเงินมัดจำ&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
-                    <td align="right">100,000.00</td>
-                </tr>               
-                <tr>
-                    <td align="right">รวมทั้งสิ้น&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
-                    <td align="right">183,100.00</td>
-                </tr>
-                </tr>
+                <th scope="col" class="px-6 py-3">
+                    <div align="right">
+    <br><p class="font-normal text-gray-700 dark:text-gray-400"><b>รวมเงิน&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;283,100.00</b></p>
+    <p class="font-normal text-gray-700 dark:text-gray-400"><b>รวมยอดหลังหักส่วนลด&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;283,100.00</b></p>
+    <p class="font-normal text-gray-700 dark:text-gray-400"><b>หักเงินมัดจำ&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;100,000.00</b></p><p class="font-normal text-gray-700 dark:text-gray-400"><b>รวมทั้งสิ้น&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;183,100.00</b></p>
+ 
+</div>
+                </th>
+            </tr>
         </thead>
         
     </table>
+</div>
     <table class="w-full" style="background-color: #EEEEEE ;">
   <tr>
     <td rowspan="2" align="center">ดูรายละเอียดโปรแกรมเพิ่มเติม <br> <img src="https://blog.qr4.nl/image.axd?picture=2011%2F8%2FPostscript-Vector-QR-Code.jpg"  width="150" height="150" alt="mockup"></td>
@@ -131,7 +127,6 @@
     <td align="center"><p class="max-w-2xl mb-6 font-extrabold text-gray-500 lg:mb-8 md:text-lg lg:text-l dark:text-gray-400 align:left">100,000.00</p></td>
   </tr>
 </table>
-</div>
 <br>
 <table class="w-full"> 
 						<thead> 
@@ -158,5 +153,4 @@
 							</tr>
 						</tbody> 
 					</table>
-</section>
 </template>
