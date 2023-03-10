@@ -13,13 +13,10 @@
         </div>         
     </div>
     <hr>
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12">
-                <h1 class="max-w-2xl mb-1 text-4xl font-regular tracking-tight leading-none md:text-5xl xl:text-2xl dark:text-white">ใบแจ้งชำระมัดจำ Deposit Invoice</h1>
-            </div>
-            <div class="col-md-6">
-                <table class="table" >
+<table class="table w-full">
+    <tr>
+        <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+        <td><table class="table w-full" >
                 <tr>
                     <td style="background-color: #D6EEEE ; border: 1px solid black;" align="right">ผู้สั่งซื้อ :<br>Buyer<br>&nbsp;</td>
                     <td style="background-color: #EEEEEE ; border: 1px solid black;" align="left">คุณศรีดารา บุตตะ<br>Tel. 0801915100, Email. sridaratour@yahoo.com<br>&nbsp;</td>
@@ -34,10 +31,17 @@
                     <td style="background-color: #D6EEEE ; border: 1px solid black;" align="right">รายละเอียด :<br>Detail<br>&nbsp;</td>
                     <td style="background-color: #EEEEEE ; border: 1px solid black;" align="left">รหัสกลุ่ม (GROUP CODE) : GQ2NRTTG230325A<br>วันเดินทาง (TRAVEL DATE) : 25 มี.ค 2566 ถึง 30 มี.ค 2566<br>&nbsp;</td>
                 </tr>
-                </table>
-            </div>
-            <div class="col-md-6" align="right">
-                <table class="table" >
+                </table></td>
+        <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+        <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+        <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+        <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+        <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+        <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+        <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+        <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+
+        <td> <table class="table"  >
                 <tr>
                     <td style="background-color: #EEEEEE ;" align="left">กำหนดชำระเงิน<br>(Payment Due Date):<br>&nbsp;</td>
                 </tr>
@@ -53,10 +57,9 @@
                 <tr>
                     <td style="background-color: #EEEEEE ;" align="left">วันที่จอง (Date Rese) :<br>31/01/2023&nbsp;11:34:02</td>
                 </tr>
-                </table>
-            </div>
-        </div>
-    </div>
+                </table></td>
+    </tr>
+</table>
     <br>
     
     <table class="w-full"> 
@@ -99,7 +102,7 @@
         <thead class="text-xs text-gray-700 uppercase bg-gray-10 dark:bg-gray-700 dark:text-gray-400">
             <tr>
                 <th scope="col" class="px-6 py-2">
-หมายเหตุ : กรุณาชำระเงินภายในเวลาที่กำหนด นับจากวันที่ท่านได้จอง ถ้าชำระไม่ทันไม่ตรงกำหนดระบบจะทำการตัดที่นั่งโดยอัตโนมัติ
+<b>หมายเหตุ</b> : กรุณาชำระเงินภายในเวลาที่กำหนด นับจากวันที่ท่านได้จอง ถ้าชำระไม่ทันไม่ตรงกำหนดระบบจะทำการตัดที่นั่งโดยอัตโนมัติ
 
 
                 </th>
